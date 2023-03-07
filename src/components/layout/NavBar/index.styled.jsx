@@ -1,4 +1,6 @@
 import styled from "@emotion/styled";
+import LinkedInIcon from "@/src/components/icons/socials/LinkedIn";
+import theme from "@/public/static/themes";
 
 export const StyledNav = styled("nav")({
   display: "flex",
@@ -9,4 +11,10 @@ export const StyledNav = styled("nav")({
 
 export const LogoAndSocial = styled("div")({
   display: "flex"
+});
+
+export const Socials = styled("div")({
+  display: "flex",
+  columnGap: 10,
+  padding:10
 });
